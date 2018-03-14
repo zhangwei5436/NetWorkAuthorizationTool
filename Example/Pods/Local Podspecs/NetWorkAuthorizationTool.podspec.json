@@ -1,0 +1,28 @@
+{
+  "name": "NetWorkAuthorizationTool",
+  "version": "0.1.0",
+  "summary": "NetWorkAuthorizationTool.",
+  "description": "TODO: 检测蜂窝数据针对APP的链接状态，以及对于状态的一个监控.",
+  "homepage": "https://github.com/zhangwei5436/NetWorkAuthorizationTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangwei5436": "825460068@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangwei5436/NetWorkAuthorizationTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NetWorkAuthorizationTool/Classes/**/*",
+  "frameworks": "CoreTelephony",
+  "dependencies": {
+    "AFNetworking/Reachability": [
+
+    ]
+  }
+}

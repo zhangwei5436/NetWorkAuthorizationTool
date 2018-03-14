@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking/Reachability (3.2.0)
+  - Expecta (1.0.6)
+  - Expecta+Snapshots (3.1.1):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - NetWorkAuthorizationTool (0.1.0):
+    - AFNetworking/Reachability
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - NetWorkAuthorizationTool (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  NetWorkAuthorizationTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NetWorkAuthorizationTool: 8230ff4af435e61b2e981cd255edf0f46873e7c2
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 498e7625b943b61c546d32db1f3249dee8daab43
+
+COCOAPODS: 1.4.0
